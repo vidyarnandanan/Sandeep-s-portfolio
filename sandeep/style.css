@@ -1,0 +1,99 @@
+h1{
+
+color:black;
+
+
+}
+body{
+
+    background-color: rgb(111, 237, 100);
+}
+
+.grid{
+    color:navy;
+    display : flex ;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: white;
+   
+}
+
+    h3{
+
+color:black;
+margin-left:30px
+
+
+    }
+.header{
+    background-color:rgb(168, 216, 175);
+    display:flex;
+justify-content: space-between;
+color:black
+   
+
+
+}
+
+        
+.item{
+
+   
+    display:flex;
+    flex-wrap: wrap;
+justify-content: flex-end;
+   
+
+
+}
+.menu a {
+   margin-left: 20px;
+
+
+}
+.menu  {
+    margin-left: 30px;
+ 
+ 
+ }
+.footer{
+   
+   
+    display:flex;
+    flex-wrap: wrap;
+
+justify-content: flex-end;
+padding:60px
+}
+a:link{
+color:green
+
+
+
+}
+a:visited{
+    color:blue 
+    
+    }
+    .item{
+        position: relative;
+    }
+    .item h5{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        opacity:0;
+    }
+    .item:hover h5{
+        opacity: 1;
+    }
+    
+    .item:hover img{
+        opacity: 0.23;
+    } 
+    .footer a {
+        margin-left: 20px;
+     
+     
+     }
